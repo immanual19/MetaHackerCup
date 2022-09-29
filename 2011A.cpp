@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 long long int solve(long long int n){
-    unordered_set<int>us;
+    unordered_set<int>us; //unordered_set has insertion time complexity of O(1). Insertion isn't a costly operation here
     for(int i=0;i<=sqrt(n);i++){
         
         long long int square=i*i;
